@@ -380,8 +380,8 @@ function Library:CreateWindow(hubname, logoxx, discordxx)
 
     TabList_Gradient.Color = ColorSequence.new({
         ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
-        ColorSequenceKeypoint.new(0.3, Color3.fromRGB(255, 0, 0)),
-        ColorSequenceKeypoint.new(0.7, Color3.fromRGB(255, 0, 0)),
+        ColorSequenceKeypoint.new(0.3, Color3.fromRGB(0, 0, 255)),
+        ColorSequenceKeypoint.new(0.7, Color3.fromRGB(0, 0, 255)),
         ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 0)),
     })
     TabList_Gradient.Name = "TabList_Gradient"
@@ -427,8 +427,8 @@ function Library:CreateWindow(hubname, logoxx, discordxx)
     local ContainerGradients = Instance.new("UIGradient")
     ContainerGradients.Color = ColorSequence.new({
         ColorSequenceKeypoint.new(0, Color3.fromRGB(100, 0, 0)),
-        ColorSequenceKeypoint.new(0.3, Color3.fromRGB(255, 0, 0)),
-        ColorSequenceKeypoint.new(0.7, Color3.fromRGB(255, 0, 0)),
+        ColorSequenceKeypoint.new(0.3, Color3.fromRGB(0, 0, 255)),
+        ColorSequenceKeypoint.new(0.7, Color3.fromRGB(0, 0, 255)),
         ColorSequenceKeypoint.new(1, Color3.fromRGB(100, 0, 0)),
     })
     ContainerGradients.Name = "ContainerGradients"
@@ -617,8 +617,8 @@ function Library:CreateWindow(hubname, logoxx, discordxx)
 
                 UIGradient.Color = ColorSequence.new({
                     ColorSequenceKeypoint.new(0, Color3.fromRGB(30, 30, 30)),
-                    ColorSequenceKeypoint.new(0.3, Color3.fromRGB(255, 0, 0)),
-                    ColorSequenceKeypoint.new(0.7, Color3.fromRGB(255, 0, 0)),
+                    ColorSequenceKeypoint.new(0.3, Color3.fromRGB(0, 0, 255)),
+                    ColorSequenceKeypoint.new(0.7, Color3.fromRGB(0, 0, 255)),
                     ColorSequenceKeypoint.new(1, Color3.fromRGB(30, 30, 30)),
                 })
                 UIGradient.Parent = List
