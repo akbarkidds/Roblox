@@ -1210,7 +1210,7 @@ end
     Players.LocalPlayer.OnTeleport:Connect(function(State)
         if KeepInfYield and (not TeleportCheck) and queueteleport then
             TeleportCheck = true
-            queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()")
+            queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/akbarkidds/Roblox/refs/heads/main/as/as.lua'))()")
         end
     end)
 end
